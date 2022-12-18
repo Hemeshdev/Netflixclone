@@ -1,0 +1,100 @@
+body {
+    background-color: #222222 !important;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    color: #ffffff;
+}
+
+.firstbar {
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("backimage.jpg");
+    width: 100%;
+    height: 660px;
+    background-size: 100% 100%;
+    opacity: 90%;
+}
+
+.one {
+    padding: 1% 4% 1%;
+}
+
+.two {
+    text-align: center;
+    margin: 6% 0%;
+    padding: 6% 0%;
+}
+
+.btn {
+    float: right;
+    margin-top: 2px;
+
+}
+
+#signin {
+    margin: 10px;
+}
+
+.start {
+    font-size: 3.125rem;
+    margin: auto;
+}
+
+#search {
+    padding: 2%;
+    width: 40%;
+}
+.secondone{
+    background-color: #000000;
+    width:100%
+}
+.last{
+    margin:0.35%;
+    width:70%;
+    height:5%;
+    text-align: left;
+    color: #ffffff;
+    background-color: #303030;
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    font-size: 1.5rem;
+}
+.lastpart{
+    text-align: center;
+    margin: 1% 0% 0%;
+    background-color: #000000;
+    padding: 6% 0%;
+}
+.lastDiv{
+    
+    margin:auto;
+    width:70%;
+    height:5%;
+    text-align: left;
+    color: #ffffff;
+    background-color: #303030;
+    /* padding: 0.8em 2.2em 0.8em 1.2em; */
+    font-size: 1.5rem;
+}
+.heading{
+    margin: 3px;
+}
+.bore{
+    float: right;
+}
+
+@media(max-width:900px) {
+    h1,h2{
+        text-align: center;
+    }
+    
+}
